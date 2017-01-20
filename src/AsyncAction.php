@@ -1,7 +1,7 @@
 <?php
 namespace Workana\AsyncJobs;
 
-use Bernard\Message;
+use Bernard\Message;//No lo usamos tampoco
 
 /**
  * Async action
