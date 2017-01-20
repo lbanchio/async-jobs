@@ -18,7 +18,7 @@ class ScalarNormalizer extends AbstractAggregateNormalizerAware implements Norma
     /**
      * Normalizes an object into a set of arrays/scalars.
      *
-     * @param object $object  object to normalize
+     * @param array|scalar $value  object to normalize
      * @param string $format  format the normalization result will be encoded as
      * @param array  $context Context options for the normalizer
      *
@@ -46,7 +46,7 @@ class ScalarNormalizer extends AbstractAggregateNormalizerAware implements Norma
      * Denormalizes data back into an object of the given class.
      *
      * @param mixed  $data    data to restore
-     * @param string $class   the expected class to instantiate
+     * @param string $type   the expected type to instantiate
      * @param string $format  format the given data was extracted from
      * @param array  $context options available to the denormalizer
      *
