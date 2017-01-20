@@ -52,6 +52,7 @@ class PingCommand extends Command
      */
     public function execute(InputInterface $input, OutputInterface $output)
     {
+        // Se pisan las variables, las queue por input están en otro nivel, no?
         $queueNames = array_map('trim', explode(',', $input->getOption('queues')));
         $queueNames = !empty($queues) ?: $this->jm->getDriver()->listQueues();
 
