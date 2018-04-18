@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "bernard/bernard": "dev-master",
+        "bernard/bernard": "^1.1.1",
         "misterion/ko-process": "^0.5.3",
         "container-interop/container-interop": "^1.1"
     },
